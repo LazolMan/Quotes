@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes</title>
+
+    <link rel="icon" href="img/favicon.png" sizes="32x32" />
+    <link rel="icon" href="img/favicon.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="img/favicon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="plugins/slick.css" />
+    <link rel="stylesheet" href="plugins/all.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="plugins/slick.min.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__box wrapper">
+        <a href="#" class="header__logo">quotes</a>
+
+        <nav class="menu">
+          <input id="menu__toggle" type="checkbox" class="menu__toggle" />
+          <label for="menu__toggle" class="menu__toggle-label">
+            <span class="menu__bttn_open">menu</span>
+            <span class="menu__bttn_close"><i class="fas fa-times"></i></span>
+          </label>
+
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#1">Home</a></li>
+            <li class="menu__item"><a href="#2">Categories</a></li>
+            <li class="menu__item"><a href="#3">Gallery</a></li>
+            <li class="menu__item"><a href="#4">Events</a></li>
+            <li class="menu__item"><a href="#5">Blog</a></li>
+            <li class="menu__item"><a href="#6">contacts Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="home" id="1">
+      <div class="home__box wrapper">
+        <h1 class="home__title">smile</h1>
+        <p class="home__description">it costs you nothing</p>
+      </div>
+    </section>
+
+    <section class="testimonials" id="2">
+      <div class="left-box">
+        <div class="wrapper">
+          <div class="left-box__slider">
+            <div class="left-box__slide">
+              <div class="left-box__description">
+                I love people who make me laugh. I honestly think it’s the thing
+                I like most, to laugh. It cures a multitude of ills. It's
+                probably the most important thing in a person.
+              </div>
+              <h3 class="left-box__author">Audrey Hepburn</h3>
+            </div>
+
+            <div class="left-box__slide">
+              <div class="left-box__description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio omnis quam ducimus quis beatae officia, non nostrum?
+                Ad, culpa error!
+              </div>
+              <h3 class="left-box__author">Steve Bobs</h3>
+            </div>
+
+            <div class="left-box__slide">
+              <div class="left-box__description">
+                Incidunt voluptatum blanditiis voluptatem corrupti quos. Magnam
+                ab aliquam, voluptate nobis quia eos expedita recusandae itaque
+                vel, molestias perspiciatis, repellat modi ea.
+              </div>
+              <h3 class="left-box__author">Elon Must</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-box"></div>
+    </section>
+
+    <section class="reasons" id="3">
+      <div class="wrapper">
+        <h2 class="reasons__title title">Reasons to be happy</h2>
+
+        <ul class="reasons__list">
+          <li class="reasons__item">
+            <h3 class="reasons__subtitle">you are alive</h3>
+            <p class="reasons__description">
+              Waking up to see another day is a blessing. Don't take it for
+              granted. Make it count and be happy that you're alive.
+            </p>
+            <h4 class="reasons__author">Anonymous</h4>
+          </li>
+
+          <li class="reasons__item">
+            <h3 class="reasons__subtitle">someone loves you</h3>
+            <p class="reasons__description">
+              Someone who really loves you sees what a mess you can be, how
+              moody you can get, how hard you are to handle, but still wants you
+              in their life.
+            </p>
+            <h4 class="reasons__author">Anonymous</h4>
+          </li>
+
+          <li class="reasons__item">
+            <h3 class="reasons__subtitle">Enjoy the moment</h3>
+            <p class="reasons__description">
+              Sometimes you will never know the true value of a moment until it
+              becomes a memory.
+            </p>
+            <h4 class="reasons__author">Anonymous</h4>
+          </li>
+
+          <li class="reasons__item">
+            <h3 class="reasons__subtitle">health is wealth</h3>
+            <p class="reasons__description">
+              It is health that is real wealth and not pieces of gold and
+              silver.
+            </p>
+            <h4 class="reasons__author">Mahatma Gandhi</h4>
+          </li>
+        </ul>
+
+        <div class="reasons__button">
+          <a href="#" class="button-link"
+            ><span class="button-link__text"> more reasons</span></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="events" id="4">
+      <div class="events__box wrapper">
+        <p class="events__description">
+          I love you for all that you are, all that you have been, and all
+          you're yet to be.
+        </p>
+        <h3 class="events__subtitle">
+          Quote of the day, from
+          <a class="events__link" href="#">Love Quotes</a>
+        </h3>
+      </div>
+    </section>
+
+    <section class="shop" id="5">
+      <div class="wrapper">
+        <h2 class="shop__title title">Buy Poster Prints</h2>
+
+        <div class="shop__box">
+          <div class="shop__right-column">
+            <picture
+              ><source srcset="img/poster_1.webp" type="image/webp" />
+              <img class="shop__img" src="img/poster_1.jpg" alt=""
+            /></picture>
+          </div>
+          <div class="shop__left-column">
+            <div class="shop__top-row">
+              <picture
+                ><source srcset="img/poster_2.webp" type="image/webp" />
+                <img class="shop__img" src="img/poster_2.jpg" alt=""
+              /></picture>
+            </div>
+            <div class="shop__bottom-row">
+              <picture
+                ><source srcset="img/poster_3.webp" type="image/webp" />
+                <img class="shop__img" src="img/poster_3.jpg" alt=""
+              /></picture>
+              <picture
+                ><source srcset="img/poster_4.webp" type="image/webp" />
+                <img class="shop__img" src="img/poster_4.jpg" alt=""
+              /></picture>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop__button">
+          <a href="#" class="button-link"
+            ><span class="button-link__text">browse posters</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="6">
+      <div class="contacts__container wrapper">
+        <nav class="contacts__box">
+          <h3 class="contacts__title">Browse</h3>
+
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a class="contacts__link" href="#">Home</a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="#">About us</a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="#">Categories</a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="#">Info</a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="#">Services</a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="contacts__box">
+          <h3 class="contacts__title">Shop</h3>
+
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a class="contacts__link" href="#">Account</a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="#">Help & Guide</a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="#">Shipping & Returns</a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="#">FAQs</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="contacts__box">
+          <h3 class="contacts__title">contacts</h3>
+
+          <p class="contacts__text">
+            Rudra Street, 12354 Villa My State - My Country 987658
+          </p>
+
+          <ul class="contacts__list">
+            <li class="contacts__item">Phone: + 01 234 567 890</li>
+            <li class="contacts__item">Fax: + 01 234 567 890</li>
+            <li class="contacts__item">graphicsfuel@gmail.com</li>
+          </ul>
+        </div>
+
+        <div class="contacts__box">
+          <h3 class="contacts__title">Subscribe now</h3>
+
+          <p class="contacts__text">
+            Get our latest news and product updates daily
+          </p>
+
+          <form action="#" class="contacts__form">
+            <input
+              class="contacts__email"
+              type="email"
+              placeholder="Your Email"
+              required
+            />
+
+            <div class="contacts__submit">
+              <input class="contacts__button" type="submit" value="submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__box wrapper">
+        <p class="footer__text">
+          2016 © Copyright - Quotes PSD Templates. All rights reserved.
+        </p>
+
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link"><i class="fab fa-youtube"></i></a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link"
+              ><i class="fab fa-google-plus-g"></i
+            ></a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
